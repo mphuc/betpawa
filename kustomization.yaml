@@ -1,0 +1,8 @@
+generatorOptions:
+  disableNameSuffixHash: true
+resources:
+  # ValidatingWebhookConfiguration removed [1]
+  - k8s/ingress-nginx.yaml
+  - k8s/ingress.yaml
+  - k8s/app-deployment.yaml
+  - k8s/app-svc.yaml
